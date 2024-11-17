@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FASCO-Sign Up</title>
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./style/product-choose.css">
+    <link rel="stylesheet" href="../style/responsive.css">
+    <script defer src="./script.js"></script>
+</head>
+<body>
+    <nav>
+        <div class="website-box">
+            <h1 class="website-name"><a href="../index.html">FASCO</a> </h1>
+        </div>
+        <ul class="menu"> 
+          <li class="menu-item"><a href="" class="menu-link">Home</a></li>
+          <li class="menu-item"><a href="" class="menu-link">Shop</a></li>
+          <li class="menu-item"><a href="" class="menu-link">Products</a></li>
+          <li class="menu-item menu-drop">
+            <a href="" class="menu-link">Pages 
+                <svg class="arrow-svg" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#484848"><path d="M480-345 240-585l56-56 184 183 184-183 56 56-240 240Z"/></svg>
+            </a>
+            <ul class="dropdown"> 
+                <li class="dropdown-item"><a href="" class="dropdown-link">page1</a></li>
+                <li class="dropdown-item"><a href="" class="dropdown-link">page2</a></li>
+                <li class="dropdown-item"><a href="" class="dropdown-link">page3</a></li>
+            </ul>
+          </li>
+        </ul>
+        <div class="dashboard-items">
+            <div class="dashboard-search">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#484848"><path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/></svg>
+            </div>
+            <div class="dashboard-user">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#484848"><path d="M480-480q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 66-47 113t-113 47ZM160-160v-112q0-34 17.5-62.5T224-378q62-31 126-46.5T480-440q66 0 130 15.5T736-378q29 15 46.5 43.5T800-272v112H160Zm80-80h480v-32q0-11-5.5-20T700-306q-54-27-109-40.5T480-360q-56 0-111 13.5T260-306q-9 5-14.5 14t-5.5 20v32Zm240-320q33 0 56.5-23.5T560-640q0-33-23.5-56.5T480-720q-33 0-56.5 23.5T400-640q0 33 23.5 56.5T480-560Zm0-80Zm0 400Z"/></svg>
+            </div>
+            <div class="dashboard-favorite">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#484848"><path d="m354-287 126-76 126 77-33-144 111-96-146-13-58-136-58 135-146 13 111 97-33 143ZM233-120l65-281L80-590l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Zm247-350Z"/></svg>
+            </div>
+            <div class="dashboard-cart">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#484848"><path d="M240-80q-33 0-56.5-23.5T160-160v-480q0-33 23.5-56.5T240-720h80q0-66 47-113t113-47q66 0 113 47t47 113h80q33 0 56.5 23.5T800-640v480q0 33-23.5 56.5T720-80H240Zm0-80h480v-480h-80v80q0 17-11.5 28.5T600-520q-17 0-28.5-11.5T560-560v-80H400v80q0 17-11.5 28.5T360-520q-17 0-28.5-11.5T320-560v-80h-80v480Zm160-560h160q0-33-23.5-56.5T480-800q-33 0-56.5 23.5T400-720ZM240-160v-480 480Z"/></svg>
+            </div>
+        </div>
+        <div class="btns-menu">
+          
+          <button class="open-menu btn-menu active-btn" type="button">
+            <svg xmlns="http://www.w3.org/2000/svg" height="34px" viewBox="0 -960 960 960" width="34px" fill="#484848"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+          </button>
+          <button class="close-menu btn-menu " type="button">
+            <svg xmlns="http://www.w3.org/2000/svg" height="34px" viewBox="0 -960 960 960" width="34px" fill="#484848"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>        </div>
+
+    </nav>
+          <div class="bag-container">
+            <div class="bag-products">
+              <div class="bag-products__header">
+                <h2 class="bag-products__title">Shopping Cart</h2>
+                <button class="close-bag" type="button">
+                  <svg xmlns="http://www.w3.org/2000/svg" height="34px" viewBox="0 -960 960 960" width="34px" fill="#484848"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>        
+                </button>
+              </div>
+              <p class="freeshipping">Buy <span class="remaining">$122.35</span> more and get <b>free shipping</b></p>
+              <div class="bag-products__items-container">
+                <div class="bag-item">
+                  <div class="bag-item__image-container">
+                    <img src="./img/pc1.png" alt="">
+                  </div>
+                  <div class="bag-item__info-container">
+                    <h3 class="bag-item__title">Denim Jacket</h3>
+                    <p class="bag-item__color">Color : <span class="bag-item__color-choose">Red</span></p>
+                    <span class="bag-item__price">$14.80</span>
+                    <div class="bag-item__count">
+                      <span class="minus">-</span>
+                      <span class="quantity-counter">1</span>
+                      <span class="plus">+</span>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+              <div class="bag-product__checkout">
+                <div class="bag-product__checkbox">
+                  <input name="bag-checkbox" id="bag-checkbox" type="checkbox">
+                  <label for="bag-checkbox">For <b>$10.00</b> please wrap the product</label>
+                </div>
+                <div class="bag-product__checkout-total">
+                  <span>Subtotal</span>
+                  <span class="subtotal-price">$100.00</span>
+                </div>
+                <a href="" class="bl-btn checkout-btn">Checkout</a>
+                <a class="view-cart" href="">View Cart</a>
+              </div>
+            </div>
+            <div class="overlay"></div>
+          </div>
+
+      <section>
+        <div class="shoping-container">
+            <div class="header-shoping">
+                <h2 class="shop-title">Fashion</h2>
+                <p class="before-page">Home > <span class="after-page">Fashion</span></p>
+            </div>
+            <div class="Product-container">
+                <div class="filter-side">
+                    <h3 class="filter-side__title">Filters</h3>
+                    <div class="filters-side__content">
+
+                        <div class="filter-size__box filters-boxs">
+                            <h5 class="filter-box__title">Size</h5>
+                            <ul class="filter-size__items">
+                                <li class="size-item">S</li>
+                                <li class="size-item">M</li>
+                                <li class="size-item">L</li>
+                                <li class="size-item">XL</li>
+                            </ul>
+                        </div>
+                        <div class="filter-color__box filters-boxs">
+                            <h5 class="filter-box__title">Colors</h5>
+                            <ul class="filter-color__items">
+                                <li class="color-item c1"></li>
+                                <li class="color-item c2"></li>
+                                <li class="color-item c3"></li>
+                                <li class="color-item c4"></li>                            
+                                <li class="color-item c5"></li>
+                                <li class="color-item c6"></li>
+                                <li class="color-item c7"></li>
+                                <li class="color-item c8"></li>
+                                <li class="color-item c9"></li>
+                                <li class="color-item c10"></li>
+                                <li class="color-item c11"></li>
+                                <li class="color-item c12"></li>
+                            </ul>
+                        </div>
+                        <div class="filter-price__box filters-boxs">
+                            <h5 class="filter-box__title">Prices</h5>
+                            <ul class="filter-price__items">
+                                <li class="price-item">$0-$50</li>
+                                <li class="price-item">$50-$100</li>
+                                <li class="price-item">$100-$150</li>
+                                <li class="price-item">$150-$200</li>                            
+                                <li class="price-item">$300-$400</li>
+                            </ul>
+                        </div> 
+                        <div class="filter-brands__box filters-boxs">
+                            <h5 class="filter-box__title">Brands</h5>
+                            <ul class="filter-brands__items">
+                                <li class="brands-item">Minimog</li>
+                                <li class="brands-item">Retrolie</li>
+                                <li class="brands-item">Brook</li>
+                                <li class="brands-item">Learts</li>                            
+                                <li class="brands-item">Vagabond</li>
+                                <li class="brands-item">Abby</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="Products-side">
+                    <div class="Products-tools">
+                        <div class="Products-sort__type">
+                            <form action="" method="get">
+                                <select id="" name="country">
+                                    <option value="best-sell">Best selling</option>
+                                    <option value="price-h">Price: High to Low</option>
+                                    <option value="price-low">Price: Low to High</option>
+                                    <option value="newest-arrivals">Newest Arrivals</option>
+                                  </select>
+                            </form>
+                        </div>
+                        <div class="Products-sort__icons">
+                            <div class="Products-sort__icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#484848"><path d="M120-120v-80h720v80H120Zm0-160v-80h480v80H120Zm0-160v-80h720v80H120Zm0-160v-80h480v80H120Zm0-160v-80h720v80H120Z"/></svg>
+                            </div>
+                            <div class="Products-sort__icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#484848"><path d="M80-80v-80h800v80H80Zm200-340v-120h400v120H280ZM80-800v-80h800v80H80Z"/></svg> 
+                           </div>
+                            <div class="Products-sort__icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#484848"><path d="M120-120v-80h720v80H120Zm320-160v-80h400v80H440Zm0-160v-80h400v80H440Zm0-160v-80h400v80H440ZM120-760v-80h720v80H120Zm160 440L120-480l160-160v320Z"/></svg>                          </div>
+                            <div class="Products-sort__icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#484848"><path d="M120-760v-80h720v80H120Zm240 160v-80h480v80H360ZM120-440v-80h720v80H120Zm240 160v-80h480v80H360ZM120-120v-80h720v80H120Z"/></svg>
+                            </div>
+                            <div class="Products-sort__icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#484848"><path d="M80-80v-800h80v800H80Zm440-200v-400h120v400H520Zm-240 0v-400h120v400H280Z"/></svg>                            </div>
+                        </div>
+                    </div>
+                    <div class="Products">
+
+                        <div class="Products-container" >
+                        </div>
+                        <div class="btn-page__container">
+                            <button class="btn-page__active" type="button">1</button>
+                            <button type="button">2</button>
+                            <button type="button">3</button>
+                            <button type="button">>></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="product-choose mx-size">
+
+          <div class="product-choose__content-container">
+            <span class="website-name">FASCO</span>
+            <div class="product-choose__content-header">
+              <div class="product-choose__header-name">
+                <h3 class="product-item__name">Denim Jacket</h3>
+                <svg xmlns="http://www.w3.org/2000/svg" height="34px" viewBox="0 -960 960 960" width="34px" fill="#484848"><path d="m354-287 126-76 126 77-33-144 111-96-146-13-58-136-58 135-146 13 111 97-33 143ZM233-120l65-281L80-590l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Zm247-350Z"/></svg>
+              </div>
+              <div class="product-choose__header-stars">
+                <div class="product-item__stars">
+                  <svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960" width="18px" fill="#484848"><path d="m354-287 126-76 126 77-33-144 111-96-146-13-58-136-58 135-146 13 111 97-33 143ZM233-120l65-281L80-590l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Zm247-350Z"/></svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960" width="18px" fill="#484848"><path d="m354-287 126-76 126 77-33-144 111-96-146-13-58-136-58 135-146 13 111 97-33 143ZM233-120l65-281L80-590l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Zm247-350Z"/></svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960" width="18px" fill="#484848"><path d="m354-287 126-76 126 77-33-144 111-96-146-13-58-136-58 135-146 13 111 97-33 143ZM233-120l65-281L80-590l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Zm247-350Z"/></svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960" width="18px" fill="#484848"><path d="m354-287 126-76 126 77-33-144 111-96-146-13-58-136-58 135-146 13 111 97-33 143ZM233-120l65-281L80-590l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Zm247-350Z"/></svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960" width="18px" fill="#484848"><path d="m354-287 126-76 126 77-33-144 111-96-146-13-58-136-58 135-146 13 111 97-33 143ZM233-120l65-281L80-590l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Zm248-350Z"/></svg>
+                </div>
+                <span>(3)</span>
+              </div>
+            </div>
+            <div class="product-choose__price-container">
+              <span class="price">$39.00</span>
+              <span class="b-price">$59.00</span>
+              <span class="off-percent">Save 33%</span>
+            </div>
+            <div class="product-choose__view">
+              <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#484848"><path d="M480-320q75 0 127.5-52.5T660-500q0-75-52.5-127.5T480-680q-75 0-127.5 52.5T300-500q0 75 52.5 127.5T480-320Zm0-72q-45 0-76.5-31.5T372-500q0-45 31.5-76.5T480-608q45 0 76.5 31.5T588-500q0 45-31.5 76.5T480-392Zm0 192q-146 0-266-81.5T40-500q54-137 174-218.5T480-800q146 0 266 81.5T920-500q-54 137-174 218.5T480-200Zm0-300Zm0 220q113 0 207.5-59.5T832-500q-50-101-144.5-160.5T480-720q-113 0-207.5 59.5T128-500q50 101 144.5 160.5T480-280Z"/></svg>
+              <p class="product-choose__view-text"><span class="total-view">24</span> people are viewing this right now</p>
+            </div>
+            <div class="product-choose__counter">
+              <p class="counter-text">Hurry up! Sale ends in:</p>
+              <div class="counter-timer">
+                <span class="days"></span>
+                <span class="hours"></span>
+                <span class="minutes"></span>
+                <span class="seconds"></span>
+              </div>
+            </div>
+            <div class="product-choose__stock-stat">
+              <p class="stock-stat__text">Only <span class="stock-stat__total">9</span> item(s) left in stock!</p>
+              <div class="stock-stat__role" data-stock="9%"></div>
+            </div>
+            <div class="product-choose__sizes">
+              <h5 class="product-choose__size-name">
+                Size: <span class="size-selected">M</span>
+              </h5>
+              <div class="product-choose__sizes-items">
+                <button class="size-btn size-btn__active" type="button">M</button>
+                <button class="size-btn"  type="button">L</button>
+                <button  class="size-btn" type="button">XL</button>
+                <button  class="size-btn" type="button">XXL</button>
+              </div>
+            </div>
+            <div class="product-choose__color">
+              <h5 class="product-choose__color-name">
+                color: <span class="size-selected">Blue</span>
+              </h5>
+              <div class="product-choose__color-items">
+                <div class="Product-card__color pc1 Product-color__active" data-color=""><span></span></div>
+                <div class="Product-card__color pc2" data-color=""><span></span></div>
+              </div>
+            </div>
+            <div class="product-choose__quantity">
+              <h5 class="product-choose__quantity-name">
+                Quantity
+              </h5>
+              <div class="quantity-boxes">
+                <div class="quantity-count">
+                  <span class="minus">-</span>
+                  <span class="quantity-counter">1</span>
+                  <span class="plus">+</span>
+                </div>
+                <div class="quantity-add">
+                  <button class="quantity-add_btn">Add to cart</button>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <section class="slider-section anim-sec">
+        <div class="slider-section__container">
+          <div class="ponint-slide point-slide__1">
+            <div class="point-img__container">
+              <img src="./img/img10.png" alt="">
+            </div>
+            
+            <div class="point-text__container">
+              <p class="point-sexual">Women Collection</p>
+              <h2 class="point-title">Peaky Blinders</h2>
+              <a href="" class="point-description__link">DESCRIPTION</a>
+              <p class="point-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque duis ultrices sollicitudin aliquam sem. Scelerisque duis ultrices sollicitudin. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque duis.</p>
+              <div class="point-size__container">
+                <span>Size:</span>
+                <ul class="point-size__list">
+                  <li class="point-item__size">M</li>
+                </ul>
+              </div>
+              <span class="point-price">$100.<span>00</span></span>
+              <div class="point-btn__container">
+  
+                <button class="bl-btn" type="button">Buy Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="features-section anim-sec">
+        <div class="features-container mx-size">
+          <div class="feature">
+            <div class="feature-icon__container">
+              <svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960" width="48px" fill="#484848"><path d="M595-292h50v-65h41q14.45 0 24.22-9.49Q720-375.98 720-390v-179q0-14.45-9.78-24.22Q700.45-603 686-603H560q-14 0-27 9.78-13 9.77-13 24.22v179q0 14.02 13 23.51 13 9.49 27 9.49h35v65Zm-355-65h50v-89h100v89h50v-246h-50v107H290v-107h-50v246Zm330-50v-146h100v146H570ZM140-160q-24 0-42-18t-18-42v-520q0-24 18-42t42-18h680q24 0 42 18t18 42v520q0 24-18 42t-42 18H140Zm0-60h680v-520H140v520Zm0 0v-520 520Z"/></svg>
+            </div>
+            <div class="feature-text__container">
+              <h4 class="feature-title">High Quality</h4>
+              <p class="feature-description">crafted from top materials</p>
+            </div>
+          </div>
+          <div class="feature">
+            <div class="feature-icon__container">
+              <svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960" width="48px" fill="#484848"><path d="m385-412 36-115-95-74h116l38-119 37 119h117l-95 74 35 115-94-71-95 71ZM244-40v-304q-45-47-64.5-103T160-560q0-136 92-228t228-92q136 0 228 92t92 228q0 57-19.5 113T716-344v304l-236-79-236 79Zm236-260q109 0 184.5-75.5T740-560q0-109-75.5-184.5T480-820q-109 0-184.5 75.5T220-560q0 109 75.5 184.5T480-300ZM304-124l176-55 176 55v-171q-40 29-86 42t-90 13q-44 0-90-13t-86-42v171Zm176-86Z"/></svg>          </div>
+            <div class="feature-text__container">
+              <h4 class="feature-title">Warrany Protection</h4>
+              <p class="feature-description">Over 2 years</p>
+            </div>
+          </div>
+          <div class="feature">
+            <div class="feature-icon__container">
+              <svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960" width="48px" fill="#484848"><path d="M450-154v-309L180-619v309l270 156Zm60 0 270-156v-310L510-463v309Zm-60 69L150-258q-14-8-22-22t-8-30v-340q0-16 8-30t22-22l300-173q14-8 30-8t30 8l300 173q14 8 22 22t8 30v340q0 16-8 30t-22 22L510-85q-14 8-30 8t-30-8Zm194-525 102-59-266-154-102 59 266 154Zm-164 96 104-61-267-154-104 60 267 155Z"/></svg>          </div>
+            <div class="feature-text__container">
+              <h4 class="feature-title">Free Shipping</h4>
+              <p class="feature-description">Order over 150 $</p>
+            </div>
+          </div>
+          <div class="feature">
+            <div class="feature-icon__container">
+              <svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960" width="48px" fill="#484848"><path d="M440-120v-60h340v-304q0-123.69-87.32-209.84Q605.36-780 480-780q-125.36 0-212.68 86.16Q180-607.69 180-484v244h-20q-33 0-56.5-23.5T80-320v-80q0-21 10.5-39.5T120-469l3-53q8-68 39.5-126t79-101q47.5-43 109-67T480-840q68 0 129 24t109 66.5Q766-707 797-649t40 126l3 52q19 9 29.5 27t10.5 38v92q0 20-10.5 38T840-249v69q0 24.75-17.62 42.37Q804.75-120 780-120H440Zm-80.18-290q-12.82 0-21.32-8.68-8.5-8.67-8.5-21.5 0-12.82 8.68-21.32 8.67-8.5 21.5-8.5 12.82 0 21.32 8.68 8.5 8.67 8.5 21.5 0 12.82-8.68 21.32-8.67 8.5-21.5 8.5Zm240 0q-12.82 0-21.32-8.68-8.5-8.67-8.5-21.5 0-12.82 8.68-21.32 8.67-8.5 21.5-8.5 12.82 0 21.32 8.68 8.5 8.67 8.5 21.5 0 12.82-8.68 21.32-8.67 8.5-21.5 8.5ZM241-462q-7-106 64-182t177-76q87 0 151 57.5T711-519q-89-1-162.5-50T434.72-698Q419-618 367.5-555.5T241-462Z"/></svg>          </div>
+            <div class="feature-text__container">
+              <h4 class="feature-title">24 / 7 Support</h4>
+              <p class="feature-description">Dedicated support</p>
+            </div>
+          </div>
+  
+        </div>
+      </section>
+      <section class="gallery-section anim-sec">
+        <div class="gallery-container">
+          <div class="gallery-text__container">
+            <h2 class="gallery-title">Follow Us On Instagram</h2>
+            <p class="gallery-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque duis ultrices sollicitudin aliquam sem. Scelerisque duis ultrices sollicitudin </p>
+          </div>
+          <div class="gallery-image__container">
+            <div class="gallery-image img-start">
+              <img src="./img/gallery/image-0.png" alt="">
+            </div>
+            <div class="gallery-image">
+              <img src="./img/gallery/image-2.png" alt="">
+            </div>
+            <div class="gallery-image">
+              <img src="./img/gallery/image-5.png" alt="">
+            </div>
+            <div class="gallery-image">
+              <img src="./img/gallery/image-3.png" alt="">
+            </div>
+            <div class="gallery-image">
+              <img src="./img/gallery/image-6.png" alt="">
+            </div>
+            <div class="gallery-image">
+              <img src="./img/gallery/image-4.png" alt="">
+            </div>
+            <div class="gallery-image img-end">
+              <img src="./img/gallery/image-1.png" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="subscribe-section anim-sec">
+        <div class="subscribe-container mx-size">
+          <div class="subscribe-img__container">
+            <img src="./img/f-2.png" alt="">
+          </div>
+          <div class="subscribe-text__container">
+            <h2 class="subscribe-title">Subscribe To Our Newsletter</h2>
+            <p class="subscribe-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque duis ultrices sollicitudin aliquam sem. Scelerisque duis ultrices sollicitudin </p>
+            <form action="" class="subscribe-news">
+              <input type="email" name="" class="subscribe-email" placeholder="michael@ymail.com" id="">
+              <button class="bl-btn subscribe-btn" type="submit">Subscribe Now</button>
+            </form>
+          </div>
+          <div class="subscribe-img__container">
+            <img src="./img/f-1.png" alt="">
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div class="footer-container mx-size">
+          <div class="footer-nav">
+            <h3 class="footer-brandname">FASCO</h3>
+            <ul class="footer-menu">
+              <li class="footer-menu__item">
+                <a href="" class="footer-menu__link">Support Center</a>
+              </li>
+              <li class="footer-menu__item">
+                <a href="" class="footer-menu__link">Invoicing</a>
+              </li>
+              <li class="footer-menu__item">
+                <a href="" class="footer-menu__link">Contract</a>
+              </li>
+              <li class="footer-menu__item">
+                <a href="" class="footer-menu__link">Careers</a>
+              </li>
+              <li class="footer-menu__item">
+                <a href="" class="footer-menu__link">Blog</a>
+              </li>
+              <li class="footer-menu__item">
+                <a href="" class="footer-menu__link">FAQ,s</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-license">
+            <p class="footer-copyright">Copyright © 2022 Xpro . All Rights Reseved.</p>
+          </div>
+        </div>
+      </footer>
+</body>
+</html>
