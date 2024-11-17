@@ -22,7 +22,7 @@ This is my first practice project on my journey to learning front-end developmen
 ### 🎥 Demo
 
 Check out the live demo of the project:  
-[👉 Live Demo](https://your-demo-link.com)
+[👉 Live Demo](https://www.linkedin.com/in/merlincoder/)
 
 ### 📸 Screenshots
 
@@ -38,4 +38,24 @@ Here are a few screenshots of the project:
 2. Open folder: `cd FASCO`
 3. Open file with vsCode
 4. replace `API_KEY` authentication: `./APIs.js` & `./shopPage/script.js`
-5. enjoy :)!
+5. Open `index.html` file in your browser
+6. enjoy :)!
+
+
+
+
+
+### 💡 Challenges and Learnings
+1. Gained a basic understanding of CORS (Cross-Origin Resource Sharing) and how to handle browser restrictions
+2. Struggled to find a suitable API for the project, ultimately settling on Pexels API for fetching images
+3. Learned to troubleshoot issues related to image loading
+
+
+
+
+### 🙌 Contributing
+Feel free to contribute to this project by opening a pull request or sharing your feedback. I'd love to hear your thoughts and ideas for improvement!
+
+### 📞 Contact
+Email: rezarahimi130@gmail.com  
+LinkedIn: [My LinkedIn Profile](https://www.linkedin.com/in/merlincoder/)
