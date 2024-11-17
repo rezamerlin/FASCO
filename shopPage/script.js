@@ -75,7 +75,7 @@ let result;
 
 const picApiById = async function (id) {
   try {
-    const API_KEY = "aQB2VkwlTxbrTJoYJDGj4mDennk9ON0ue8OhnxZNFRJT6HVF8jAKkmYo";
+    const API_KEY = "API_KEY";
     const response = await fetch(`https://api.pexels.com/v1/photos/${id}`, {
       headers: {
         Authorization: API_KEY,
@@ -92,7 +92,7 @@ const picApiById = async function (id) {
 
 const picAPI = async function (search, page) {
   try {
-    const API_KEY = "aQB2VkwlTxbrTJoYJDGj4mDennk9ON0ue8OhnxZNFRJT6HVF8jAKkmYo";
+    const API_KEY = "API_KEY";
     const response = await fetch(
       `https://api.pexels.com/v1/search?query=${search}&orientation=landscape&page=${page}`,
       {
